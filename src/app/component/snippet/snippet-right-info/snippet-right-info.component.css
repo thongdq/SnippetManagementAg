@@ -1,0 +1,11 @@
+#spLanguage {
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+}
+.btn-info {
+    float: right;
+}
+.card {
+    height: 245px;;
+}

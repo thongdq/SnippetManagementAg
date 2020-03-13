@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="panel panel-success">
+        <div class="panel-heading">
+        </div>
+        <div class="panel-body" style="max-height: 600px;">
+                <div class="row">
+                    <div class="col-md-3" id="spLeftInfo">
+                            <app-snippet-left-info *ngFor="let snippet of snippets | async" [snippet]="snippet" (click)="onSelect(snippet)">
+                            </app-snippet-left-info>
+                    </div>
+                    <div class="col-md-9" id="spRightInfo">
+                        <app-snippet-right-info [selectedSnippet]="selectedSnippet">
+                        </app-snippet-right-info>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+#container {
+    position: relative;
+}
+#spLeftInfo {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.panel-body {
+    max-height: 400px;
+}
